@@ -1,0 +1,24 @@
+{
+  "name": "logauditoriaapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon scr/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "handlebars": "^4.7.8",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^8.3.5",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
