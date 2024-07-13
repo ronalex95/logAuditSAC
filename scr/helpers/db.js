@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const dbConnection = async () => {
     try {
         await mongoose.connect('mongodb://192.168.1.205:27017/logs');//, { useNewUrlParser: true, useUnifiedTopology: true });
-        console.log('Connected to MongoDB');
+        console.log('Contectado a MongoDB');
     } catch (error) {
         console.error('Error connecting to MongoDB:', error);
         process.exit(1);

@@ -27,6 +27,6 @@ res.send("Welcome to my API");
 //Server Init
 app.listen(app.get('port') , () =>{
  
-console.log('Sevidor en pueto ',app.get('port') );
+console.log('Sevidor en puerto ',app.get('port') );
 });
 
