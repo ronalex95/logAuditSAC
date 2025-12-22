@@ -2,8 +2,8 @@ const mongoose = require('mongoose');
 
 const dbConnection = async () => {
     try {
-        await mongoose.connect('mongodb://192.168.1.205:27017/logs');//, { useNewUrlParser: true, useUnifiedTopology: true });
-        console.log('Contectado a MongoDB');
+        await mongoose.connect('mongodb://logsUser:log*2025Sac@192.168.1.205:27017/logs');//, { useNewUrlParser: true, useUnifiedTopology: true });
+        console.log('Contectado a MongoDB correctamente con logsUser');
     } catch (error) {
         console.error('Error connecting to MongoDB:', error);
         process.exit(1);
