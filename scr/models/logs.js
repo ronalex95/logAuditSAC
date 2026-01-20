@@ -14,8 +14,8 @@ const additionalDataSchema = new mongoose.Schema({
   IdTipoProducto: { type: String },
   MensajeJson: { type: mongoose.Schema.Types.Mixed }, // puede ser objeto o string
   AdicionalDecimal: { type: mongoose.Schema.Types.Mixed }, // puede ser null o número
-  FechaSistema: { type: Date },
-  FechaProceso: { type: String } // si quieres convertirlo a Date, puedes usar type: Date
+  FechaSistema: { type: String },
+  FechaProceso: { type: Date }
 }, { _id: false });
 
 
